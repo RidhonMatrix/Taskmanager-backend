@@ -7,7 +7,7 @@ const routes = require("./routes/ToDoRoutes");
 const cors = require("cors");
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = 4001;
 
 // Middleware
 app.use(express.json());
